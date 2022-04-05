@@ -1,0 +1,5 @@
+# Prediccion-precio-de-vehiculos
+
+El objetivo de este proyecto es predecir el precio de vehiculos usados que se encuentras dentro de la craiglist (lista de vehículos usadoas más grande del mundo). En la misma se especifica de cada auto, su modelo, año, estado, cilindros, conducción, tamaño, color de pintura, precio, etc. Para ello se procedió al análisis Exploratorio, de valores nulos y de Outliers.
+Para luego poder transformar las variables categóricas, escalar los datos y dividirlos en TRAIN y TEST. Punto de partida para poder implementación un modelo predictivo baseline (Random Forest), luego entrenar una red neuronal, utilizando el framework keras y desde ahí poder aumentar la complejidad, desarrollando redes neuronales con distinto n° de capaz, optimizadores, funciones de activación, épocas de entrenamiento y early stopping.
+Consecuentemente se evaluan los modelos mediante métricas apropiadas para obtener conclusiones sobre la mejor configuración para el modelo en cuestión y se selecciona una única red como modelo final para poder comparar con el modelo baseline. Por último se entrenam y predice para el modelo seleccionado.
